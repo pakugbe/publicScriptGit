@@ -26,14 +26,8 @@ foreach ($file in $downloads) {
 
         
    }
-       peak
 }  
  
-
-    
-    asd
-
-te
 
  
 
