@@ -32,7 +32,7 @@ foreach ($file in $downloads) {
     
     
 
-test
+te
  
 
 #write-host $url.GetType() -ForegroundColor Green
