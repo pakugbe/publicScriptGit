@@ -26,13 +26,15 @@ foreach ($file in $downloads) {
 
         
    }
-       
+       peak
 }  
  
+
     
-    
+    asd
 
 te
+
  
 
 #write-host $url.GetType() -ForegroundColor Green
