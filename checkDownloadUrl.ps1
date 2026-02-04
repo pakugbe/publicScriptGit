@@ -28,9 +28,6 @@ foreach ($file in $downloads) {
    }
 }  
  
-
- 
-
 #write-host $url.GetType() -ForegroundColor Green
 
 
