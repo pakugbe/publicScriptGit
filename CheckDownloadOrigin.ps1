@@ -35,7 +35,7 @@ $filesInDownloads | ForEach-Object {
                 }
             }
             if ($targetFolder) {
-                Write-Host "[debug]..... $($_.Name) -> $($folderMap[$key])" -ForegroundColor Green
+                Write-Host "[info]..... $($_.Name) -> $($folderMap[$key])" -ForegroundColor Green
                 Move-Item -Path $_.FullName -Destination $targetFolder -Force
             }
         }
@@ -44,7 +44,7 @@ $filesInDownloads | ForEach-Object {
 }
 foreach ($file in $filesInDownloads) {
     if (([regex]::IsMatch($file.Name, '\.(odt|odp|rbbk|ITU8)$'))) {
-        Write-Host "[debug]..... $($file.Name)" -ForegroundColor Yellow
+        Write-Host "[info]..... $($file.Name)" -ForegroundColor Yellow
         Move-Item -Path $file -Destination $schoolPath
     }
 }
