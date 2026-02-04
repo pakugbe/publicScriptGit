@@ -1,5 +1,5 @@
 $downloadsPath = "$env:USERPROFILE\Downloads"
-$schoolPath = "$env:USERPROFILE\Documents\Schule"
+$schoolPath = "$env:USERPROFILE\Documents\SchoolStuffs"
 $schoolDomains = @('https://rbbk-do.de/', 'https://schulendortmund.taskcards.app/')
 
 $folderMap = @{
